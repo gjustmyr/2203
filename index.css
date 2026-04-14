@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: #212529; /*BG Color*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 0px;
+  border-bottom: 2px solid #ff0000;
+}
+
+.web-title {
+  color: #ffffff;
+  font-size: 3.25rem;
+}
+
+.header-caption {
+  color: #ffffff !important;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
